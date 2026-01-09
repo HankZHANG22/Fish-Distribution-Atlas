@@ -703,7 +703,6 @@ const fishData = [
 
 - **Primary Reference:** Masuda, H., K. Amaoka, C. Araga, T. Uyeno and T. Yoshino, 1984. The fishes of the Japanese Archipelago. Vol. 1. Tokai University Press, Tokyo, Japan. 437 p. (Ref. 559).
 - **Biology Reference:** FishBase. *Oncorhynchus masou masou*, Yamame. www.fishbase.org. (Based on your provided data).
-- **Additional Data:** References 12218, 1739, 26334, 37812, 46888, 50550, 51717 as cited in your query.
         `
     },
     {
