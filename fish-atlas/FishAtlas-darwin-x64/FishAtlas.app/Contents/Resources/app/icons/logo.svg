@@ -1,0 +1,12 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 24C8 24 12 16 24 16C36 16 40 24 40 24C40 24 36 32 24 32C12 32 8 24 8 24Z" fill="url(#fishGrad)" stroke="#f4e4c1" stroke-width="2"/>
+                    <circle cx="32" cy="24" r="3" fill="#0a1628"/>
+                    <path d="M4 24L10 20V28L4 24Z" fill="url(#fishGrad)" stroke="#f4e4c1" stroke-width="1.5"/>
+                    <path d="M24 20C24 20 26 22 26 24C26 26 24 28 24 28" stroke="#f4e4c1" stroke-width="1.5" stroke-linecap="round"/>
+                    <defs>
+                        <linearGradient id="fishGrad" x1="4" y1="24" x2="40" y2="24">
+                            <stop stop-color="#3498db"/>
+                            <stop offset="1" stop-color="#2ecc71"/>
+                        </linearGradient>
+                    </defs>
+                </svg>

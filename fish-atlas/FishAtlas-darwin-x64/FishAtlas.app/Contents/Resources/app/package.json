@@ -1,0 +1,42 @@
+{
+  "name": "fish-atlas",
+  "version": "1.0.0",
+  "description": "An interactive global map showing fish species distribution with detailed fishing guides.",
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "30.0.9",
+    "electron-builder": "24.13.3",
+    "@electron/rebuild": "3.7.2"
+  },
+  "build": {
+    "appId": "com.zbh.fishatlas",
+    "productName": "FishAtlas",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+  "mac": {
+    "category": "public.app-category.education",
+    "target": ["dmg"],
+    "icon": "icons/icon.icns",
+    "extendInfo": {
+    "NSLocationWhenInUseUsageDescription": "FishAtlas needs your location to suggest nearby fishing destinations and default region."
+    }
+  },
+  "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "icons/icon-256.png"
+  }
+  }
+}
